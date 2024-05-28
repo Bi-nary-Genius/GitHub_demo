@@ -1,34 +1,50 @@
-body {
-    background-color: #E6E6FA; 
-}
-
-.sevillana-regular {
-    font-family: "Sevillana", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* Use a unique and descriptive class name */
-.dancing-script-custom {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700; /* Use a value from 400 to 700 */
-  font-style: normal;
-  color: #ffc0cb;
-}
-
-.video-button {
-    font-family: "Dancing Script", cursive;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
+.image-container {
+    text-align: center;
+  }
+  
+  .circle-image {
+    display: inline-block;
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the whole area */
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
     background-color: purple;
-    border: none;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .video-button {
+    display: block;
+    margin: 20px auto;
     padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
     border-radius: 5px;
+    text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s ease;
   }
-  .video-button:hover {
-    background-color: pink;
+  
+  .video-button a {
+    color: white;
+    text-decoration: none;
   }
+  
+  .dancing-script-custom {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .sevillana-regular {
+    font-family: 'Sevillana', cursive;
+  }
+  
